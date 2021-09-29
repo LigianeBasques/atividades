@@ -1,9 +1,15 @@
-#Jogos entre seleções#
+#lista#
 
-jogos = [['Brasil', 'Italia', [10,9]],
-         ['Brasil', 'Espanha', [5,7]],
-        ['Italia', 'Espanha', [7,8]]]
+frutas = ['maça','banana','abacaxi']
+#print(len(frutas)) #comprimento da lista
+#print(frutas[0]) # posição do elemento dentro da lista
 
-lista_faltas = []
-lista_times = []
-faltas_totais = 0
+#itens da lista de acesso#
+frutas = ['maça','banana','abacaxi']
+#print(frutas[0])
+#print(frutas[1])
+print(frutas[2])
+
+
+
+
