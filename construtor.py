@@ -17,6 +17,12 @@
 
 # metodo para remover elementos da lista
 
-fruta = ['maça','banana','abacate']
-fruta.clear()
-print(fruta)
+#fruta = ['maça','banana','abacate']
+#fruta.clear()
+#print(fruta)
+
+#O método retorna uma cópia da lista especificada.copy()
+
+frutas = ['apple', 'banana', 'cherry', 'orange']
+x = frutas.copy()
+print(frutas)
