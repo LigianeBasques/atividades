@@ -6,4 +6,5 @@ lista3 = [True,False,False]
 
 list1 = ['abc',34,True,40,'males']
 
-print(list1)
+#print(list1)
+print(type(list1))
