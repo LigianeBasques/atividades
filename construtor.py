@@ -10,7 +10,13 @@
 
 #print(fruta)
 
-a = ['maça','banana','abacate']
-b = ['Ford', 'BMW', 'Volvo']
-a.append(b)
-print(a)
+#a = ['maça','banana','abacate']
+#b = ['Ford', 'BMW', 'Volvo']
+#a.append(b)
+#print(a)
+
+# metodo para remover elementos da lista
+
+fruta = ['maça','banana','abacate']
+fruta.clear()
+print(fruta)
