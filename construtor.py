@@ -6,5 +6,6 @@
 # adicionando um elemento ou uma lista em lista
 
 fruta = ['maça','uva','buriti','abacaba']
-fruta.append('laranja')
+fruta.append('laranja') # esse metodo adiciona um item no final da lista.
+
 print(fruta)
