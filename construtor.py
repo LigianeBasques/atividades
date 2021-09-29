@@ -23,6 +23,16 @@
 
 #O método retorna uma cópia da lista especificada.copy()
 
-frutas = ['apple', 'banana', 'cherry', 'orange']
-x = frutas.copy()
-print(frutas)
+#frutas = ['apple', 'banana', 'cherry', 'orange']
+#x = frutas.copy()
+#print(frutas)
+
+#O método retorna o número de elementos com o valor especificado.count()
+#Devolva o número de vezes que o valor 9 aparece int na lista
+#pontos = [1, 4, 2, 9, 7, 8, 9, 3, 1]
+#x = pontos.count(9)
+#print(x)
+
+fruits = ['apple', 'banana', 'cherry', 'banana', 'banana']
+x = fruits.count('banana')
+print(x)
