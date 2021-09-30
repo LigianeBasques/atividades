@@ -33,6 +33,18 @@
 #x = pontos.count(9)
 #print(x)
 
-fruits = ['apple', 'banana', 'cherry', 'banana', 'banana']
-x = fruits.count('banana')
-print(x)
+#fruits = ['apple', 'banana', 'cherry', 'banana', 'banana']
+#x = fruits.count('banana')
+#print(x)
+
+# Método extend () da lista Python
+# O método adiciona os elementos de lista especificados (ou qualquer iterável) ao final da lista atual.extend ()
+# Exemplo: adione os elementos da lista car em frutas.
+
+frutas = ['apple', 'banana', 'cherry', 'orange']
+carros = ['Ford', 'BMW', 'Volvo']
+
+frutas.extend(carros) # adicionou os elemntos
+print(frutas)
+
+
