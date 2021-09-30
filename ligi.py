@@ -5,8 +5,9 @@
 #Faça uma lista vazia e depois adione elementos a esta lista:
 #Depois faça uma 2ª lista e adicione os elementos desta lista 2ª na 1ª lista.
 #Coloque a posição de cada elemento das listas.
-# Coloque o numero de elementos da lista
-# Faça com que a lista aparece algumas vezes
+#Coloque o numero de elementos da lista
+#Faça com que a lista aparece algumas vezes
+#Faça com que mostre a posição de um determinado elemento especifico
 
 
 
@@ -18,9 +19,11 @@ peixes_amazonicos = ['jaraqui','pacu','pirarucu','tucunaré']
 frutas_amazonicas.extend(peixes_amazonicos)
 #print(frutas_amazonicas[5])
 #print(len(frutas_amazonicas))
+x = frutas_amazonicas.index('pacu')
+print(x)
 
-for lista in frutas_amazonicas:
-    print(frutas_amazonicas)
+#for lista in frutas_amazonicas:
+print(frutas_amazonicas)
 
 
 
