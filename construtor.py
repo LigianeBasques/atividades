@@ -37,14 +37,18 @@
 #x = fruits.count('banana')
 #print(x)
 
-# Método extend () da lista Python
+##Método extend () da lista Python
 # O método adiciona os elementos de lista especificados (ou qualquer iterável) ao final da lista atual.extend ()
 # Exemplo: adione os elementos da lista car em frutas.
 
-frutas = ['apple', 'banana', 'cherry', 'orange']
-carros = ['Ford', 'BMW', 'Volvo']
+#frutas = ['apple', 'banana', 'uva', 'orange']
+#carros = ['Ford', 'BMW', 'Volvo']
 
-frutas.extend(carros) # adicionou os elemntos
-print(frutas)
+#frutas.extend(carros) # adicionou os elementos
+#print(frutas)
 
-
+##Método Python List index () O método retorna a posição na primeira ocorrência do valor especificado.index()
+#qual é a posição do valor "orange":
+frutas = ['apple', 'banana', 'uva', 'orange']
+x = frutas.index('uva')
+print(x)
