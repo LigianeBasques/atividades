@@ -1,15 +1,11 @@
 
-
 #Exercicos de Ligiane
-
 #Faça uma lista vazia e depois adione elementos a esta lista:
 #Depois faça uma 2ª lista e adicione os elementos desta lista 2ª na 1ª lista.
 #Coloque a posição de cada elemento das listas.
 #Coloque o numero de elementos da lista
 #Faça com que a lista aparece algumas vezes
 #Faça com que mostre a posição de um determinado elemento especifico
-
-
 
 frutas_amazonicas = []
 frutas_amazonicas.append('Buriti')
