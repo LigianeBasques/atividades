@@ -9,6 +9,7 @@
 # Faça com que a lista aparece algumas vezes
 
 
+
 frutas_amazonicas = []
 frutas_amazonicas.append('Buriti')
 frutas_amazonicas.append('Açai')
