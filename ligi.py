@@ -1,5 +1,5 @@
 
-#Exercicos de Ligiane
+#Exercicios de Ligiane
 #Faça uma lista vazia e depois adione elementos a esta lista:
 #Depois faça uma 2ª lista e adicione os elementos desta lista 2ª na 1ª lista.
 #Coloque a posição de cada elemento das listas.
