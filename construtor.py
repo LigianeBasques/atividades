@@ -81,4 +81,17 @@ frutas = ['apple', 'banana', 'uva', 'orange', 'abacate','mamão', 'morango']
 
 #Ao deixar de fora o valor final, o intervalo irá até o final da lista:
 #Este exemplo retorna os itens de "uva" até o final
-print(frutas[2:])
+#print(frutas[2:])
+
+#Faixa de Índices Negativos
+#Especifique índices negativos se quiser iniciar a pesquisa a partir do final da lista:
+#Este exemplo retorna os itens de "orage" (-4) para, mas NÃO incluindo "morango" (-1)
+#print(frutas[-4:-1])
+#Verifique se o item existe
+#Para determinar se um item especificado está presente em uma lista use a palavra-chave:in
+#Verifique se "uva" está presente na lista:
+
+frutas = ['apple', 'banana', 'uva', 'orange', 'abacate','mamão', 'morango']
+
+if 'uva' in frutas:
+    print('uva')
