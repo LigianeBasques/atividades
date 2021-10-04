@@ -2,7 +2,9 @@
 
 lista = []
 entrada = input('Digite o nome de uma fruta:')
+
 lista.append(entrada)
+print(lista)
 
 
 
