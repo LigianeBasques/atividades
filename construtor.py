@@ -57,5 +57,12 @@
 #Os itens da lista são indexados e você pode acessá-los referindo-se ao número do índice:
 #Imprima o segundo item da lista:
 
+#frutas = ['apple', 'banana', 'uva', 'orange']
+#print(frutas[1])
+
+# Indexação Negativa
+#Indexação negativa significa começar a partir do fim
+#-1 refere-se ao último item, refere-se ao segundo último item etc.-2
+#Imprima o último item da lista:
 frutas = ['apple', 'banana', 'uva', 'orange']
-print(frutas[1])
+print(frutas[-2])
