@@ -49,6 +49,13 @@
 
 ##Método Python List index () O método retorna a posição na primeira ocorrência do valor especificado.index()
 #qual é a posição do valor "orange":
+#frutas = ['apple', 'banana', 'uva', 'orange']
+#x = frutas.index('uva')
+#print(x)
+
+#Itens de acesso
+#Os itens da lista são indexados e você pode acessá-los referindo-se ao número do índice:
+#Imprima o segundo item da lista:
+
 frutas = ['apple', 'banana', 'uva', 'orange']
-x = frutas.index('uva')
-print(x)
+print(frutas[1])
