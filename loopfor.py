@@ -6,3 +6,8 @@ frutas = ['apple', 'banana', 'uva', 'orange', 'abacate','mamão', 'morango']
 #for fruta in frutas:
     #lista.append(fruta)
 #print(lista)
+
+#Looping Através de uma String
+#Loop através das letras na palavra "banana":
+for x in 'banana':
+    print(x)
