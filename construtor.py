@@ -77,4 +77,8 @@
 #Ao deixar de fora o valor inicial, o intervalo começará no primeiro item:
 #Este exemplo retorna os itens do início para, mas NÃO incluindo, "abacate":
 frutas = ['apple', 'banana', 'uva', 'orange', 'abacate','mamão', 'morango']
-print(frutas[:4])
+#print(frutas[:4])
+
+#Ao deixar de fora o valor final, o intervalo irá até o final da lista:
+#Este exemplo retorna os itens de "uva" até o final
+print(frutas[2:])
