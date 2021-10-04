@@ -64,5 +64,17 @@
 #Indexação negativa significa começar a partir do fim
 #-1 refere-se ao último item, refere-se ao segundo último item etc.-2
 #Imprima o último item da lista:
-frutas = ['apple', 'banana', 'uva', 'orange']
-print(frutas[-2])
+#frutas = ['apple', 'banana', 'uva', 'orange']
+#print(frutas[-2])
+
+#Faixa de Índices
+#Você pode especificar uma série de índices especificando por onde iniciar e por onde terminar o intervalo.
+#Ao especificar um intervalo, o valor de retorno será uma nova lista com os itens especificados.
+#frutas = ['apple', 'banana', 'uva', 'orange', 'abacate','mamão', 'morango']
+#print(frutas[2:5])
+#A pesquisa começará no índice 2 (incluído) e terminará no índice 5 (não incluído).
+
+#Ao deixar de fora o valor inicial, o intervalo começará no primeiro item:
+#Este exemplo retorna os itens do início para, mas NÃO incluindo, "abacate":
+frutas = ['apple', 'banana', 'uva', 'orange', 'abacate','mamão', 'morango']
+print(frutas[:4])
